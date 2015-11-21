@@ -10,9 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var abtBtn: UIButton!
+    @IBOutlet weak var photoBtn: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        abtBtn.layer.cornerRadius = 3.0
+        photoBtn.layer.cornerRadius = 3.0
     }
 
     override func didReceiveMemoryWarning() {
