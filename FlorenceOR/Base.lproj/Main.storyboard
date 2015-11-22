@@ -387,20 +387,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hau-sl-vni">
-                                <rect key="frame" x="40" y="40" width="46" height="30"/>
+                            <imageView userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sand" translatesAutoresizingMaskIntoConstraints="NO" id="ESE-rs-9sy">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <animations/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="CtK-t8-qp3"/>
-                                    <constraint firstAttribute="width" constant="46" id="ady-4y-L2e"/>
-                                </constraints>
-                                <state key="normal" title="Back">
-                                    <color key="titleColor" red="0.99640268087387085" green="0.99225538969039917" blue="0.99197632074356079" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="onBack:" destination="I9b-Gc-LJO" eventType="touchUpInside" id="fs4-F8-uXI"/>
-                                </connections>
-                            </button>
+                            </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="3rZ-gH-MXf">
                                 <rect key="frame" x="20" y="20" width="560" height="530"/>
                                 <subviews>
@@ -439,7 +429,7 @@
                                                                     <constraint firstAttribute="height" constant="21" id="7I8-tX-fGF"/>
                                                                 </constraints>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                                 <nil key="highlightedColor"/>
                                                                 <variation key="widthClass=regular" misplaced="YES">
                                                                     <rect key="frame" x="0.0" y="0.0" width="81" height="21"/>
@@ -452,7 +442,7 @@
                                                                     <constraint firstAttribute="height" constant="21" id="KfC-7m-Aas"/>
                                                                 </constraints>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                                 <nil key="highlightedColor"/>
                                                                 <variation key="heightClass=regular" misplaced="YES">
                                                                     <rect key="frame" x="0.0" y="21" width="39" height="21"/>
@@ -484,7 +474,7 @@
                                                                     <constraint firstAttribute="height" constant="30" id="2V8-A4-g1s"/>
                                                                 </constraints>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                                 <nil key="highlightedColor"/>
                                                                 <variation key="heightClass=compact" misplaced="YES">
                                                                     <rect key="frame" x="0.0" y="0.0" width="277" height="30"/>
@@ -496,7 +486,7 @@
                                                                     <rect key="frame" x="0.0" y="0.0" width="595" height="30"/>
                                                                 </variation>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="LpS-Zf-Ljc">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="LpS-Zf-Ljc">
                                                                 <rect key="frame" x="0.0" y="30" width="436" height="140"/>
                                                                 <animations/>
                                                                 <constraints>
@@ -506,7 +496,7 @@
                                                                 </constraints>
                                                                 <string key="text">There are a wide variety of outdoor activities available.  There's the ocean, lakes, jetties, dunes and trails.  You can rent boats on the lakes, or ATV's for the Dunes. You can also go for rides on the dunes with a tour guide. To the north, there are cliffs, with Heceta Lighthouse, and the Sea Lion Caves.  </string>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                                 <nil key="highlightedColor"/>
                                                                 <variation key="heightClass=compact" misplaced="YES">
                                                                     <rect key="frame" x="0.0" y="30" width="277" height="110"/>
@@ -567,7 +557,7 @@
                                                     <constraint firstAttribute="height" constant="21" id="d6v-yy-bZO"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                                 <variation key="heightClass=compact" misplaced="YES">
                                                     <rect key="frame" x="0.0" y="0.0" width="570" height="21"/>
@@ -585,7 +575,7 @@
                                                 <string key="text">Florence is a town on the central Oregon Coast.  Prior to it's establishment in 1893, the area was populated by the Siuslaw Tribe. The town’s industries were primarily logging and commercial fishing.  By the year 1900, the population was 300.  The Siuslaw River was once crossed with ferry’s until 1936 when the bridge was completed.  Today, tourism plays a large part of the town's industry.
 </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                                 <variation key="heightClass=compact" misplaced="YES">
                                                     <rect key="frame" x="0.0" y="21" width="570" height="110"/>
@@ -606,9 +596,23 @@
                                 </subviews>
                                 <animations/>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hau-sl-vni">
+                                <rect key="frame" x="20" y="30" width="46" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="CtK-t8-qp3"/>
+                                    <constraint firstAttribute="width" constant="46" id="ady-4y-L2e"/>
+                                </constraints>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="0.99640268087387085" green="0.99225538969039917" blue="0.99197632074356079" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onBack:" destination="I9b-Gc-LJO" eventType="touchUpInside" id="fs4-F8-uXI"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="3rZ-gH-MXf" secondAttribute="bottom" id="08D-Yp-SoZ"/>
                             <constraint firstAttribute="trailing" secondItem="3rZ-gH-MXf" secondAttribute="trailing" id="0v4-x6-a2B">
@@ -618,21 +622,32 @@
                             <constraint firstItem="3rZ-gH-MXf" firstAttribute="leading" secondItem="sac-ny-5Jy" secondAttribute="leading" id="4U8-os-As4"/>
                             <constraint firstAttribute="trailingMargin" secondItem="3rZ-gH-MXf" secondAttribute="trailing" id="68I-mQ-Y5s"/>
                             <constraint firstItem="3rZ-gH-MXf" firstAttribute="top" secondItem="ZkS-L9-EAs" secondAttribute="bottom" id="EPT-eb-Lgx"/>
+                            <constraint firstItem="jjg-cv-8Ya" firstAttribute="top" secondItem="ESE-rs-9sy" secondAttribute="bottom" id="FUr-HM-HjQ"/>
+                            <constraint firstItem="ESE-rs-9sy" firstAttribute="leading" secondItem="sac-ny-5Jy" secondAttribute="leadingMargin" id="It9-Ss-VQe"/>
                             <constraint firstAttribute="trailingMargin" secondItem="3rZ-gH-MXf" secondAttribute="trailing" id="JEc-C5-0pM"/>
                             <constraint firstItem="3rZ-gH-MXf" firstAttribute="centerY" secondItem="sac-ny-5Jy" secondAttribute="centerY" id="SYG-Ge-i2b"/>
+                            <constraint firstAttribute="trailing" secondItem="ESE-rs-9sy" secondAttribute="trailing" id="WAz-IU-GdR"/>
                             <constraint firstItem="3rZ-gH-MXf" firstAttribute="leading" secondItem="sac-ny-5Jy" secondAttribute="leadingMargin" id="Xtk-op-v60"/>
-                            <constraint firstItem="hau-sl-vni" firstAttribute="top" secondItem="ZkS-L9-EAs" secondAttribute="bottom" constant="20" id="cWq-lJ-RGA"/>
-                            <constraint firstItem="hau-sl-vni" firstAttribute="leading" secondItem="sac-ny-5Jy" secondAttribute="leading" constant="40" id="hoL-Hd-Nog"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ESE-rs-9sy" secondAttribute="trailing" id="aZn-Bx-Mev"/>
+                            <constraint firstItem="hau-sl-vni" firstAttribute="top" secondItem="ZkS-L9-EAs" secondAttribute="bottom" constant="10" id="cWq-lJ-RGA"/>
+                            <constraint firstItem="hau-sl-vni" firstAttribute="leading" secondItem="sac-ny-5Jy" secondAttribute="leading" constant="20" id="hoL-Hd-Nog"/>
                             <constraint firstItem="jjg-cv-8Ya" firstAttribute="top" secondItem="3rZ-gH-MXf" secondAttribute="bottom" constant="50" id="jo5-bH-F7m"/>
+                            <constraint firstItem="jjg-cv-8Ya" firstAttribute="top" secondItem="ESE-rs-9sy" secondAttribute="bottom" id="kOz-ze-qJZ"/>
                             <constraint firstItem="3rZ-gH-MXf" firstAttribute="top" secondItem="ZkS-L9-EAs" secondAttribute="bottom" id="krK-YU-dgy"/>
                             <constraint firstItem="jjg-cv-8Ya" firstAttribute="top" secondItem="3rZ-gH-MXf" secondAttribute="bottom" id="lND-Fu-l5E"/>
                             <constraint firstItem="3rZ-gH-MXf" firstAttribute="centerX" secondItem="sac-ny-5Jy" secondAttribute="centerX" id="lcJ-Tl-KWP"/>
                             <constraint firstItem="3rZ-gH-MXf" firstAttribute="centerY" secondItem="sac-ny-5Jy" secondAttribute="centerY" id="nac-c8-5nl"/>
+                            <constraint firstItem="ESE-rs-9sy" firstAttribute="top" secondItem="sac-ny-5Jy" secondAttribute="top" id="r1M-rP-asV"/>
                             <constraint firstItem="3rZ-gH-MXf" firstAttribute="top" secondItem="sac-ny-5Jy" secondAttribute="top" id="tbE-uO-0qM"/>
+                            <constraint firstItem="ESE-rs-9sy" firstAttribute="leading" secondItem="sac-ny-5Jy" secondAttribute="leading" id="teO-yG-El4"/>
+                            <constraint firstItem="ESE-rs-9sy" firstAttribute="top" secondItem="sac-ny-5Jy" secondAttribute="topMargin" id="voG-Ke-qVy"/>
                             <constraint firstItem="3rZ-gH-MXf" firstAttribute="centerX" secondItem="sac-ny-5Jy" secondAttribute="centerX" id="wXs-pH-rpz"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="It9-Ss-VQe"/>
+                                <exclude reference="aZn-Bx-Mev"/>
+                                <exclude reference="voG-Ke-qVy"/>
                                 <exclude reference="08D-Yp-SoZ"/>
                                 <exclude reference="0v4-x6-a2B"/>
                                 <exclude reference="4U8-os-As4"/>
@@ -644,6 +659,7 @@
                                 <exclude reference="nac-c8-5nl"/>
                                 <exclude reference="tbE-uO-0qM"/>
                                 <exclude reference="wXs-pH-rpz"/>
+                                <exclude reference="FUr-HM-HjQ"/>
                                 <exclude reference="lND-Fu-l5E"/>
                             </mask>
                         </variation>
@@ -691,6 +707,7 @@
         <image name="Sand Dunes" width="384" height="216"/>
         <image name="Sea-Lion-Caves" width="384" height="216"/>
         <image name="image" width="610" height="305"/>
+        <image name="sand" width="5184" height="3456"/>
         <image name="water" width="2496" height="1664"/>
     </resources>
 </document>
