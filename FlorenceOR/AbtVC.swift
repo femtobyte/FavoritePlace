@@ -9,12 +9,10 @@
 import UIKit
 
 class AbtVC: UIViewController {
-    @IBOutlet weak var ToDo: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        ToDo.layer.cornerRadius = 3.0
         
         // Do any additional setup after loading the view.
     }
